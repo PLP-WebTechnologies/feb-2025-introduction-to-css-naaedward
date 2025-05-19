@@ -27,3 +27,55 @@ Margins, paddings, and borders.
  - Improve readability and aesthetics.
 
 Happy Coding! 💻✨
+
+
+
+
+
+
+
+
+
+##index.html
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="main-title">Welcome to My Webpage</h1>
+  </header>
+
+  <nav id="main-nav">
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <p>This is a simple webpage designed to demonstrate external CSS styling.</p>
+    <img src="https://via.placeholder.com/200" alt="Sample Image" class="styled-img">
+  </main>
+
+  <footer>
+    <p>Co…
+/* Selector 3: Element selector */
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 2px solid #ccc;
+  text-align: center;
+}
+
+/* Style the image */
+.styled-img {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #444;
+}
